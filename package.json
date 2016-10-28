@@ -2,7 +2,7 @@
   "name": "tekopora",
   "version": "1.0.0",
   "description": "Teko Porã site",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Robsonsjrx/tekopora/issues"
   },
-  "homepage": "https://github.com/Robsonsjrx/tekopora"
+  "homepage": "https://github.com/Robsonsjrx/tekopora",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
