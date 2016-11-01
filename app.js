@@ -16,8 +16,7 @@ app.get('/', function(req, res) {
 
 function startServer () {
     var serverPort = process.env.OPENSHIFT_NODEJS_PORT || 8080
-    var ip         = process.env.OPENSHIFT_NODEJS_IP   || "127.0.0.1";
-    http.createServer(app).listen(serverPort, ip, null, function(){
+    http.createServer(app).listen(serverPort, null, null, function(){
         console.log("Listening to http port " + serverPort)
     })
 }
