@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 });
 
 function startServer () {
-    var serverPort = process.env.OPENSHIFT_NODEJS_PORT || 8080
+    var serverPort = 3000
     http.createServer(app).listen(serverPort, null, null, function(){
         console.log("Listening to http port " + serverPort)
     })
