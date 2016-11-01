@@ -9,7 +9,11 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 // use res.render to load up an ejs view file
 
-// index page 
+// index page
+app.get('/health', function(req, res) {
+    res.sendStatus(200)
+});
+
 app.get('/', function(req, res) {
     res.render('pages/index');
 });
