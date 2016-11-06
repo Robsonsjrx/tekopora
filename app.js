@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
 });
 
 function startServer () {
-    var serverPort = process.env.PORT || 80
+    var serverPort = process.env.PORT || 8080
     http.createServer(app).listen(serverPort, null, null, function(){
         console.log("Listening to http port " + serverPort)
     })
