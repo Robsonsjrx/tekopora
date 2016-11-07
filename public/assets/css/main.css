@@ -2874,10 +2874,10 @@
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/fulls/section1video.gif");
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-position: center;
+		background-repeat: no-repeat;
 		filter: grayscale(1005);
 	}
 
@@ -2885,7 +2885,7 @@
 
 	#one {
 		background: url("images/overlay.png"), url("../../images/fulls/section22todos.jpg");
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 	}
 
@@ -2893,9 +2893,9 @@
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/fulls/section3metro.jpg");
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: center;
 	}
 
 /* Work */
